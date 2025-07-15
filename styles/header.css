@@ -1,0 +1,21 @@
+header {
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+
+    display: none;
+}
+
+header span {
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    color: #374151;
+    font-size: 1.5rem;
+}
+
+@media (width >= 80em) {
+    header {
+        display: flex;
+        margin-bottom: 4rem;
+    }
+}

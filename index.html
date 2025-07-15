@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de compras</title>
+
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="content">
+        <header>
+            <img src="assets/Logo.svg">
+            <span>quicklist</span>
+        </header>
+
+        <main>
+            <div class="goBack">
+                <a href="#"><img src="assets/link button.svg"></a>
+            </div>
+
+            <h2 class="header_compras">Compras da semana</h2>
+
+            <form>
+                <div class="add_item">
+                    <input type="text" id="add_item" placeholder="Adicione um novo item">
+                    <button id="button_submit">Adicionar item</button>
+                </div>
+            </form>
+            
+            <ul id="lista_compras">
+                <!-- <div id="pão" style="display: none;">
+                    <input hidden id="pão" type="checkbox">
+                    <label for="pão"></label>
+                    <li>Pão</li>
+                    <button>Remover item</button> -->
+                </div>
+            </ul>
+
+            
+        </main>
+
+        <footer class="">
+            <img src="assets/warning-circle-filled.svg">
+            <span class="">O item foi removido da lista</span>
+            <button>X</button>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
